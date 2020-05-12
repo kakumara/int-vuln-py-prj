@@ -13,6 +13,8 @@
 # limitations under the License.
 from setuptools import setup
 
+from _version import __version__
+
 with open('requirements.txt') as requirements:
     REQUIRED = requirements.read().splitlines()
 
