@@ -17,4 +17,4 @@ jobs:
           command: pipenv run python main.py
       - run:
           name: Run Jake
-          command: pipenv run python jake ddt
+          command: pipenv run jake ddt
